@@ -758,9 +758,7 @@ input[type="radio"].visually-hidden {
   right: 8px;
   width: 30px;
   height: 30px;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
+  padding: 5px;
   
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -771,6 +769,7 @@ input[type="radio"].visually-hidden {
 .modal-close-btn {
   width: 18px;
   height: 18px;
+
 }
 
 
