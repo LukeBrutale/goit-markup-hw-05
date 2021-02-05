@@ -752,19 +752,27 @@ input[type="radio"].visually-hidden {
   border-radius: 4px;
 }
 
-.modal-close-btn {
+.modal-close {
   position: absolute;
   top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
   
-
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 }
+
+.modal-close-btn {
+  width: 18px;
+  height: 18px;
+}
+
 
 .is-hidden {
   opacity: 0;
