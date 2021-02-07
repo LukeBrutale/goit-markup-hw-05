@@ -304,8 +304,12 @@ input[type="radio"].visually-hidden {
 
 .section-work-list {
   width: 370px;
-  
 }
+
+.section-work-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 
 .section-work-item {
   position: relative;
@@ -332,9 +336,6 @@ input[type="radio"].visually-hidden {
 }
 
 
-.section-work-list:not(:last-child) {
-  margin-right: 30px;
-}
 
 
 
